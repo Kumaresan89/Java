@@ -19,3 +19,9 @@ public class BiConsumerFI {
 	}
 
 }
+
+/*
+The printNameAndAge BiConsumer prints out each user's name and age by calling the getName() and getAge() methods on the user object, 
+respectively. We also pass in an index parameter to keep track of the user's position in the list. 
+We use a for loop to apply the printNameAndAge BiConsumer to each user in the users list, passing in the user object and its index.
+*/

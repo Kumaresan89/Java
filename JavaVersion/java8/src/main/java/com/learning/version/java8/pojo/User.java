@@ -45,3 +45,8 @@ public class User {
     }
 
 }
+
+/*
+ In this example, we define a User class with two fields (name and age) and a constructor that takes values for these fields.
+  We then create a list of User objects and define two functional interfaces to process and print out the user data. 
+ */

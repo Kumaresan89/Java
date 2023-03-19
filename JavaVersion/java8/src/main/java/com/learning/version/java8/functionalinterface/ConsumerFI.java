@@ -15,3 +15,8 @@ public class ConsumerFI {
         }
 	}
 }
+
+/*
+The printName Consumer prints out each user's name by calling the getName() method on the user object. 
+We use the forEach method to apply the printName Consumer to each user in the users list.
+*/
