@@ -10,6 +10,8 @@ public class ConsumerFI {
 		List<User> users = new User().getUsers();
 		// Print each user's name
         Consumer<User> printName = user -> System.out.println(user.getName());
-        users.forEach(printName);
+        for (int i = 0; i < users.size(); i++) {
+        	printName.accept(users.get(i));
+        }
 	}
 }
